@@ -1,10 +1,11 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #f5faff;
+  background: #0D1A2F; /* Dark blue */
+  color: #fff; /* White text everywhere */
 }
 .header {
-  background: #0D1A2F; /* Dark, dark blue */
+  background: #0D1A2F; /* Dark blue */
   padding: 2em 0 1em 0;
   text-align: center;
 }
@@ -13,7 +14,7 @@ body {
   margin-bottom: 1em;
 }
 nav {
-  background: #1556A0;
+  background: #0D1A2F; /* Dark blue */
   padding: 1em;
   text-align: center;
 }
@@ -26,18 +27,19 @@ nav a {
   transition: color 0.2s;
 }
 nav a:hover {
-  color: #68A7E6;
+  color: #1DE9B6; /* Turquoise blue hover */
 }
 .section {
   padding: 2em;
   max-width: 800px;
   margin: 2em auto;
-  background: #fff;
+  background: #0D1A2F; /* Dark blue */
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(21,86,160,0.08);
+  color: #fff; /* White text in sections */
 }
 h1, h2 {
-  color: #1556A0;
+  color: #1556A0; /* Accent blue for headlines */
 }
 .subtitle {
   color: #1DE9B6; /* Turquoise blue */
@@ -47,10 +49,16 @@ h1, h2 {
   margin-bottom: 2em;
 }
 footer {
-  background: #1556A0;
+  background: #0D1A2F; /* Dark blue */
   color: #fff;
   text-align: center;
   padding: 1em 0;
   margin-top: 2em;
   font-size: 0.95em;
+}
+a {
+  color: #1DE9B6; /* Turquoise for links */
+}
+a:hover {
+  color: #fff;
 }
