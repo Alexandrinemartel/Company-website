@@ -4,7 +4,7 @@ body {
   background: #f5faff;
 }
 .header {
-  background: linear-gradient(90deg, #1556A0 0%, #68A7E6 100%);
+  background: #0D1A2F; /* Dark, dark blue */
   padding: 2em 0 1em 0;
   text-align: center;
 }
